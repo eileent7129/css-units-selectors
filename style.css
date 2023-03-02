@@ -1,0 +1,56 @@
+/*comma
+space
+>
+:*/
+
+*{
+	box-sizing: border-box;
+}
+
+.mainContainer {
+	background-color: yellow;
+	text-align: center;
+	display: flex;
+	border-style: dashed;
+	justify-content: space-around;
+	height: 500px;
+}
+
+.subCont {
+	
+	border: 3px solid;
+}
+
+
+.mainContainer p {
+	font-size: 30px;
+}
+
+.mainContainer .containerOne {
+	color: purple;
+	font-family: monospace;
+}
+
+.mainContainer, .containerTwo{
+	font-family: cursive;
+}
+
+.mainContainer > p {
+	font-family: fantasy;
+}
+
+.containerOne:nth-child(1) {
+	font-style:italic;
+}
+
+.containerOne {
+	background-color: pink;
+}
+
+.containerTwo {
+	background-color: lightgreen;
+}
+
+.containerThree {
+	background-color: lavenderblush;
+}
